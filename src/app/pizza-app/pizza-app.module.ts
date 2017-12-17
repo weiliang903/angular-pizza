@@ -5,10 +5,16 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { PizzaAppComponent } from './containers/pizza-app/pizza-app.component';
 
+import { PizzaViewerComponent } from './components/pizza-viewer/pizza-viewer.component';
+import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
+
+
 
 @NgModule({
   declarations: [
-    PizzaAppComponent
+    PizzaAppComponent,
+    PizzaViewerComponent,
+    PizzaFormComponent,
   ],
   imports: [
     BrowserAnimationsModule,
