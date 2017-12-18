@@ -7,7 +7,7 @@ import { PizzaAppComponent } from './containers/pizza-app/pizza-app.component';
 
 import { PizzaViewerComponent } from './components/pizza-viewer/pizza-viewer.component';
 import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
-
+import { PizzaCreatorComponent } from './components/pizza-creator/pizza-creator.component';
 
 
 @NgModule({
@@ -15,6 +15,7 @@ import { PizzaFormComponent } from './components/pizza-form/pizza-form.component
     PizzaAppComponent,
     PizzaViewerComponent,
     PizzaFormComponent,
+    PizzaCreatorComponent
   ],
   imports: [
     BrowserAnimationsModule,
