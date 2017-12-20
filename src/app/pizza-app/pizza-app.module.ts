@@ -8,6 +8,8 @@ import { PizzaAppComponent } from './containers/pizza-app/pizza-app.component';
 import { PizzaViewerComponent } from './components/pizza-viewer/pizza-viewer.component';
 import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
 import { PizzaCreatorComponent } from './components/pizza-creator/pizza-creator.component';
+import { PizzaSizeComponent } from './components/pizza-size/pizza-size.component';
+import { PizzaToppingsComponent } from './components/pizza-toppings/pizza-toppings.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { PizzaCreatorComponent } from './components/pizza-creator/pizza-creator.
     PizzaAppComponent,
     PizzaViewerComponent,
     PizzaFormComponent,
-    PizzaCreatorComponent
+    PizzaCreatorComponent,
+    PizzaSizeComponent,
+    PizzaToppingsComponent,
   ],
   imports: [
     BrowserAnimationsModule,
